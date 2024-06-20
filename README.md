@@ -1,9 +1,15 @@
-Ensure Correct Package Installations:
-Install Newtonsoft.Json, System.Security.Cryptography.Xml, System.Xml.Linq, and System.Text.Encoding via NuGet.
+This project demonstrates the creation and validation of digital signatures for JSON and XML documents. 
+It includes functionality for generating RSA key pairs, signing JSON data, converting JSON to XML, and signing XML documents.
 
-Prepare Input Files:
-invoice.json: The JSON file you want to sign.
-private_key.pem: The private key file.
+Features
+Generate RSA Keys: Create RSA public and private keys for signing and verification.
+Sign JSON: Digitally sign JSON data.
+Convert JSON to XML: Convert JSON data to an XML format.
+Sign XML: Digitally sign XML data.
 
-Build and Run:
-Execute the program to convert the JSON to signed XML and save it as signed_invoice.xml.
+
+Requirements
+.NET Core 3.1 or later
+Newtonsoft.Json
+System.Security.Cryptography.Xml
+System.Xml.Linq
